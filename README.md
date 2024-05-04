@@ -58,8 +58,8 @@ The Online Shopping System is a Python-based application that simulates an onlin
   
 - **Order Management System:** Implement a comprehensive order management system to handle order processing, tracking, and fulfillment.
 **6.Source Code Details**
-Here's a brief point-wise description of the code:
-
+Here's a brief point-wise description of the code.
+# Source Code Details 
 1. **Imports:**
    - The code imports necessary modules: `csv` for CSV file handling, `randint` from `random` module to generate random order IDs, and `tabulate` for tabular data formatting.
 
@@ -147,11 +147,11 @@ Make sure you have Python installed on your system. You can download it from [Py
 
 By following these steps, you should be able to run your code and interact with the SAT Mobile Shopee application.
 
-7. **Contributors:**
+# Contributors 
    - Atharva Kote
    - Sairaj Naikwade
    - Tushar Nagare
 
-**7. Conclusion:**
+# Conclusion 
 
 The Online Shopping System is a versatile and scalable solution for managing online retail operations. By leveraging Python and various modules, the system provides a robust platform for users to browse products, place orders, and track their purchases. With further enhancements and refinements, the system has the potential to become a comprehensive e-commerce solution catering to a wide range of businesses and customers.
