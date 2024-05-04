@@ -121,7 +121,7 @@ Make sure you have Python installed on your system. You can download it from [Py
    - In the same terminal or command prompt, navigate to the directory containing your Python script (`sourcecode.py`).
    - Run the script using the following command:
      ```bash
-     python sat_mobile_shopee.py
+     sourcecode.py
      ```
 
 5. **Choose User Type:**
