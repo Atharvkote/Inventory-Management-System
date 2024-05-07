@@ -70,7 +70,7 @@ def check_availability_and_order(product_list, order_list, prices):
                         us_city = input("Enter Your City Name: ")
                         us_pin = int(input("Enter Your City PinCode: "))
                         print("Order Placed!")
-                        price_1 = prices[chosen_product]  # Ensure the price exists
+                        price_1 = prices[chosen_product]  
                         total_price = (price_1 * user_ip)
                         product_list[chosen_product] -= user_ip
                         user_input_saver(chosen_product, price_1, user_ip, total_price, us_name, us_state, us_dist,
