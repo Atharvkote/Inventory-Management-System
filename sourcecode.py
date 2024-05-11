@@ -2,12 +2,10 @@ import csv
 from random import randint
 from tabulate import tabulate
 
-admin_credentials = {
-    
+admin_credentials = { 
     'Atharva@123': '74',  # Admin 1
     'Sairaj@123': '92',   # Admin 2
-    'Tushar@123': '90'    # Admin 3
-    
+    'Tushar@123': '90'    # Admin 3   
 }
 # Function to read data from CSV file and initialize dictionary
 def read_data_from_csv(filename):
