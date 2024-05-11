@@ -166,3 +166,12 @@ By following these steps, you should be able to run your code and interact with 
 # Conclusion 
 
 The Online Shopping System is a versatile and scalable solution for managing online retail operations. By leveraging Python and various modules, the system provides a robust platform for users to browse products, place orders, and track their purchases. With further enhancements and refinements, the system has the potential to become a comprehensive e-commerce solution catering to a wide range of businesses and customers.
+
+## 🔗 Links
+[![Telegram Badge](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AtharvKote)
+[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharva-kote)
+[![Twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ImAtharva81)
+
+<p align="center">
+     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
