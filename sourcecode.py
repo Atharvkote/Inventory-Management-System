@@ -45,7 +45,7 @@ def user_input_saver(Ordername, price_1, user_ip, total_price, us_name, us_state
             writer.writerow(['Order ID', 'Product', 'Price', 'Quantity', 'Amount', 'Customer Name', 'State', 'District', 'City', 'Pincode'])
         writer.writerow([order_id, Ordername, price_1, user_ip, total_price, us_name, us_state, us_dist, us_city, us_pin])
 
-def check_availability_and_order(product_list, order_list, prices):
+def check_availability_and_order(product_list, prices):
     user_input = input("To Check Whether Product Available Or Not, Enter Product Name: ").lower()
     matching_products = [product for product in product_list.keys() if user_input in product.lower()]
     if matching_products:
@@ -70,7 +70,7 @@ def check_availability_and_order(product_list, order_list, prices):
                         us_city = input("Enter Your City Name: ")
                         us_pin = int(input("Enter Your City PinCode: "))
                         print("Order Placed!")
-                        price_1 = prices[chosen_product]  
+                        price_1 = prices[chosen_product]  # Ensure the price exists
                         total_price = (price_1 * user_ip)
                         product_list[chosen_product] -= user_ip
                         user_input_saver(chosen_product, price_1, user_ip, total_price, us_name, us_state, us_dist,
@@ -105,6 +105,7 @@ def check_availability_and_order(product_list, order_list, prices):
             print("Invalid product choice!")
     else:
         print("Product not found")
+
         
 def shopping_process():
     exit_var = 1
@@ -116,17 +117,17 @@ def shopping_process():
             print("  ::::::::::SmartPhone:::::::::")
             print(" ")
             display_product_list(iPhoneList, iPhonePrice)
-            check_availability_and_order(iPhoneList, iPhoneList, iPhonePrice)
+            check_availability_and_order(iPhoneList, iPhonePrice)
         elif choice_3 == 2:
             print("  ::::::::::Watch:::::::::")
             print(" ")
             display_product_list(WatchList, WatchPrice)
-            check_availability_and_order(WatchList, WatchList, WatchPrice)
+            check_availability_and_order(WatchList, WatchPrice)
         elif choice_3 == 3:
             print("  ::::::::::Airpodes:::::::::")
             print(" ")
             display_product_list(AirpodesList, AirpodesPrice)
-            check_availability_and_order(AirpodesList, AirpodesList, AirpodesPrice)
+            check_availability_and_order(AirpodesList, AirpodesPrice)
         else:
             print("Invalid Choice")
         exit_var = int(input("Operation Menu : \n[PRESS 1] : Continue Shopping \n[PRESS 0] : Exit\n "))
