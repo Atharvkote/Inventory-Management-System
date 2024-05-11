@@ -1,6 +1,17 @@
 # Online-Market-Place
 _A Project Based On Python_
 
+### Languages 
+
+| Python3 |
+|----------|
+|  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C"  alt="C" width="55" height="55"/> | 
+
+### Tools Used :
+|VsCode| Syder |
+|-------|-------|
+|<img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="VsCode" alt="Vscode" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/spyder/spyder-original.svg" title="Spyder" alt="Spyder" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/spyder/spyder-original.svg" title="Spyder" alt="Spyder" width="55" height="55"/>|
+
 **1. Introduction:**
 
 The Online Shopping System is a Python-based application that simulates an online shopping platform where users can browse products, place orders, and track their orders. The system is designed to serve both customers and administrators, providing a seamless shopping experience and efficient management of product inventory and orders.
