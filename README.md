@@ -18,6 +18,7 @@ _A Project Based On Python_
 |-------|
 |<img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" title="Jupiter" alt="Jupiter" width="55" height="55"/>|
 
+## Project Description 
 **1. Introduction:**
 
 The Online Shopping System is a Python-based application that simulates an online shopping platform where users can browse products, place orders, and track their orders. The system is designed to serve both customers and administrators, providing a seamless shopping experience and efficient management of product inventory and orders.
@@ -76,7 +77,8 @@ The Online Shopping System is a Python-based application that simulates an onlin
 - **Order Management System:** Implement a comprehensive order management system to handle order processing, tracking, and fulfillment.
 **6.Source Code Details**
 Here's a brief point-wise description of the code.
-# Source Code Details 
+
+## Source Code Details 
 1. **Imports:**
    - The code imports necessary modules: `csv` for CSV file handling, `randint` from `random` module to generate random order IDs, and `tabulate` for tabular data formatting.
 
