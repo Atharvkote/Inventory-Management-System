@@ -57,17 +57,7 @@ The Online Shopping System is a Python-based application that simulates an onlin
     
   - Sensitive information such as admin credentials is stored securely and not hard-coded in the source code.
 
-**4. Technologies Used:**
-
-- **Python:** The core programming language used for implementing the application logic.
-  
-- **CSV Module:** Utilized for reading and writing data to CSV files, facilitating data storage and retrieval.
-  
-- **Random Module:** Employed for generating unique order IDs for each transaction.
-  
-- **Tabulate Module:** Utilized for formatting and displaying tabular data in a structured manner.
-
-**5. Future Enhancements:**
+**4. Future Enhancements:**
 - **Database Integration:** Migrate from CSV files to a database management system for improved scalability and performance.
   
 - **Graphical User Interface (GUI):** Develop a GUI-based interface to enhance user experience and visual appeal.
@@ -75,8 +65,6 @@ The Online Shopping System is a Python-based application that simulates an onlin
 - **Payment Integration:** Integrate payment processing functionality to enable secure online transactions.
   
 - **Order Management System:** Implement a comprehensive order management system to handle order processing, tracking, and fulfillment.
-**6.Source Code Details**
-Here's a brief point-wise description of the code.
 
 ## Source Code Details 
 1. **Imports:**
